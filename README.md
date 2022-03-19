@@ -14,37 +14,58 @@ https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 **Dependencies**
 
-xpress
+*Express*
+
 https://www.npmjs.com/package/express
-npm install express
 
-okta/jwt-verifier
+CLI: npm install express
+
+*okta/jwt-verifier*
+
 https://www.npmjs.com/package/@okta/jwt-verifier
-npm install @okta/jwt-verifier
 
-Cors
+CLI: npm install @okta/jwt-verifier
+
+*Cors*
+
 https://www.npmjs.com/package/cors
-install cors
 
-Simple-encryptor
+CLI: npm install cors
+
+*Simple-encryptor*
+
 https://www.npmjs.com/package/simple-encryptor
-npm install simple-encryptor
 
-Node-storage
+CLI: npm install simple-encryptor
+
+*Node-storage*
+
 https://www.npmjs.com/package/node-storage
-npm install node-storage
+
+CLI: npm install node-storage
+
+*Replace:*
 
 oktaSingIn.js replace:
+
 issuer: "https://${yourOktaDomain}/oauth2/default" placeholder values with correct values.
+
 clientId: "${yourClientID}" placeholder values with correct values.
 
 api.js replace:
+
 issuer: "https://${yourOktaDomain}/oauth2/default" placeholder values with correct values.
+
 clientId: "${yourClientID}" placeholder values with correct values.
+
 clientSecret = "${yourSecret}" placeholder values with correct values.
 
-Running
-Install dependencies.
-Navigate to source folder via CLI
-command: node server.js
-open loacalhost:8000 on browser
+**Running**
+
+*Install dependencies.*
+
+*Navigate to source folder via CLI*
+
+*command: node server.js*
+
+*open loacalhost:8000 on browser*
