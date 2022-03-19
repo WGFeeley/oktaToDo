@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/todolist.css" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/js-base64@3.7.2/base64.min.js"></script>
+
+<body>
+
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Enter New To Do...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+	<!-- Placeholder DIV for list content -->
+    <ul id="myUL">
+    </ul>
+
+    <script src='js/callMessage.js'></script>
+    <script src='js/todolist.js'></script>
+</body>
+
+</html>
