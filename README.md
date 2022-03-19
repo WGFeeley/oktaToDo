@@ -66,6 +66,6 @@ clientSecret = "${yourSecret}" placeholder values with correct values.
 
 *Navigate to source folder via CLI*
 
-*command: node server.js*
+*CLI: node server.js*
 
 *open loacalhost:8000 on browser*
